@@ -28,6 +28,7 @@ ext['springCloudVersion'] = 'Finchley.SR2'
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-actuator')
 	implementation('org.springframework.boot:spring-boot-starter-web')
+	// The following implementation is for enabling this service to be a config client
 	implementation('org.springframework.cloud:spring-cloud-starter-config')
 	implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
 	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
