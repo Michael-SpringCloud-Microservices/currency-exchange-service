@@ -70,4 +70,14 @@ public class ExchangeValue {
         this.port = port;
     }
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "ExchangeValue [id=" + id + ", from=" + from + ", to=" + to
+				+ ", conversionMultiple=" + conversionMultiple + ", port="
+				+ port + "]";
+	}    
+    
 }
