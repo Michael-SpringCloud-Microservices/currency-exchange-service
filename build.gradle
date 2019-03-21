@@ -56,7 +56,9 @@ dependencies {
 	//And publish logs as message to Exchange
 	//implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
 	
-	
+	// Spring Boot version lesser than 2.1.0, please use version of 2.4.0 for swagger
+	implementation 'io.springfox:springfox-swagger2:2.6.1'
+	implementation 'io.springfox:springfox-swagger-ui:2.6.1'
 	
 	runtimeOnly('org.springframework.boot:spring-boot-devtools')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')

@@ -34,7 +34,7 @@ public class CurrencyExchangeController {
         return exchangeValue;
     }
 
-    @GetMapping("/")
+    @GetMapping("/sayHello")
     public String sayHelloToUser(){
         return "Hi Michael";
     }
